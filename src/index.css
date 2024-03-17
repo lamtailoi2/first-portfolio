@@ -31,9 +31,22 @@ nav span {
 
 .gretting {
   color: antiquewhite;
+  font-family: 'Courier New', Courier, monospace;
 }
-
+h1 span{
+  color: #F8F8F2;
+}
 .canHover:hover {
   color: blueviolet;
   
+}
+
+.home-img {
+    margin-right: 20rem;
+    width: 580px;
+
+}
+
+.home-img img {
+  width: 100%;
 }
