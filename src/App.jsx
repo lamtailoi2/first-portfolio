@@ -3,6 +3,7 @@ import './index.css'
 import Header from './Header';
 import Footer from './Footer';
 import Home from './Home';
+import Blog from './Blog';
 function App() {
 
   const [active, setActive] = useState(false);
@@ -20,7 +21,7 @@ function App() {
         handleClick={handleClick}
       />
       
-      <Home />
+      { active && <Home /> || <Blog /> }
 
       <Footer />
 
