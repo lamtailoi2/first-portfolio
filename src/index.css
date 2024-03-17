@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #282A36;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo {
+  height: 5.5em;
+  padding: 1.5em;
+  margin-left: auto;
+}
+
+.active {
+  color: #32fc58;
+  font-weight: bold;
+  
+}
+
+nav span {
+  margin-left: 25px;
+  margin-right: 15px;
+  font-size: 28px;
+}
+
+
+.gretting {
+  color: antiquewhite;
+}
+
+.canHover:hover {
+  color: blueviolet;
+  
+}
