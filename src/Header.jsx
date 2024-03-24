@@ -8,7 +8,7 @@ function Header(props) {
           <span className={props.activeState ? 'active' : null} onClick={props.handleClick} >Home</span>
           <span className={!props.activeState ? 'active' : null} onClick={props.handleClick}>Blog</span>
         </div>
-        <img className='logo mr-5 min-w-fit' src="https://brademar.com/wp-content/uploads/2022/05/Pepsi-Logo-PNG-2023-1536x864.png" alt="" />
+        <img className='text-3xl logo mr-5 min-w-fit' src="https://brademar.com/wp-content/uploads/2022/05/Pepsi-Logo-PNG-2023-1536x864.png" alt="" />
       </nav>
     </header>
   )
